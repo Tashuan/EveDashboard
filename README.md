@@ -1,4 +1,10 @@
-# Eve
+# Eve Online Dashboard
+
+Live Demo here
+http://dopestoremusic.com/portfolio/eve/
+
+
+This is an Angular 2 project using Bootstrap 4! It's pulling in the game data via Eve's Crest API, and then making use of Google Charts to display various charts and infographics. 
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.22-1.
 
