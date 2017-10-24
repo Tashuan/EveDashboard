@@ -1,0 +1,12 @@
+.transItem{
+	background-color: rgba(3,3,3,.5);
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;   
+  cursor: default;
+
+	tr:hover{
+		background-color: #333;
+	}
+}

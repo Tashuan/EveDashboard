@@ -1,0 +1,23 @@
+<!-- 
+<div id="wallet-table" class="img-rounded" GoogleChart></div> -->
+<p style="color:#999;">Recent Transactions</p>
+<table class="table table-inverse table-hover table-sm transItem text-white">
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Type</th>
+      <th>Amount</th>
+      <th>Tax</th>
+      <th>Location</th>
+    </tr>
+  </thead>
+  <tbody id="tableBody">
+    <tr *ngFor = "let trans of recentTransObj; let n = index">
+      <td>{{trans.date}}</td>
+      <td>{{trans.type}}</td>
+      <td>{{trans.amount}}</td>
+      <td>{{trans.tax}}</td>
+      <td>{{trans.location}}</td>
+    </tr>
+  </tbody>
+</table>

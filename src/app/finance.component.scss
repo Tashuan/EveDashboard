@@ -1,0 +1,32 @@
+.active{
+	background-color: #333;
+    border-color: #333;
+}
+
+.list-group-item-text{
+	color: #FFF;
+}
+
+.list-group-item:hover{
+	background-color: rgba(82,82,82,.7);
+}
+
+.list-group-item:selected{
+	background-color: rgba(82,82,82,.7);
+}
+
+a.list-group-item .list-group-item-heading, button.list-group-item .list-group-item-heading{
+	color:#999999;
+}
+
+.list-group-item-heading{
+	
+	color:#999999;
+
+}
+
+#financeListWrapper{
+/*	height:500px;*/
+	background-color: rgba(3,3,3,.7);
+	margin-bottom: 20px;
+}

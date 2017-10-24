@@ -1,0 +1,80 @@
+#profitStats_chart,#lossStats_chart,.financeChart{
+    width:100%;
+
+    background-color: rgba(3,3,3,.7);
+    margin-bottom:20px;
+}
+
+
+#profitStats_chart{
+
+ margin-top:20px;
+
+}
+
+.container{
+
+background-image:url('https://login.eveonline.com/Images/site-bg.jpg');
+background-repeat: repeat;
+width:100%;
+}
+
+ .mainCol{
+/* 	background-color:rgba(3,3,3,.8);*/
+ 	height: 1000px;
+ }
+
+ .navbar{
+    background-color: #333;
+    border-color: #030033;
+    width:100%;
+}
+
+
+#footerBar{
+        height:320px;
+
+}
+
+
+        .footIcons{
+            float:left;
+            margin-left:20px;
+            margin-right:20px;
+
+             max-width: 50%;
+            height: auto;
+            margin-bottom:20px;
+        }
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: rgba(3,3,3,.5);
+    border: none;
+}
+
+.titleTxt{
+    margin-top:17px;
+    margin-bottom:20px;
+    margin-left:20px;
+
+}
+
+@media (min-width: 1200px){
+
+.container {
+
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    
+}
+
+
+	
+}
+
+
+
